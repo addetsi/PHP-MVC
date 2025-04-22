@@ -1,0 +1,15 @@
+{
+    "name": "hp/mvc",
+    "authors": [
+        {
+            "name": "gaddetsi",
+            "email": "g.addetsi@umail.leidenuniv.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
