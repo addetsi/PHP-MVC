@@ -1,3 +1,36 @@
-vendor
+# .gitignore for PHP/MVC project
 
-.idea
+# Environment files (contains sensitive data)
+.env
+.env.local
+.env.*.local
+
+# Dependency directories
+/vendor/
+/node_modules/
+
+# Log files
+/storage/logs/
+*.log
+
+# Cache and session files
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/views/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Local config overrides
+/config/local.php
+/config/development.php
+
+# Composer files (can be regenerated)
+composer.lock
